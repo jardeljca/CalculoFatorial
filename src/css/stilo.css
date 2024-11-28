@@ -1,0 +1,141 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: #a9c8f9;
+    display: flex;
+    justify-content: center;
+
+
+    body {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        header {
+            width: 100%;
+            height: 10%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 100%;
+        }
+
+        main {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .conteudoPrincipal {
+                width: 50%;
+                height: 90%;
+
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #3361fa;
+                border-radius: 10px;
+
+                h2 {
+                    font-size: 3vw;
+                }
+
+                .entradaDados {
+                    width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    input {
+                        width: 80%;
+                        margin-bottom: 3px;
+                        text-align: center;
+                        padding: 5px;
+                        font-size: 3vw;
+                        background-color: #aec0fd;
+                    }
+
+                    button {
+                        width: 60%;
+                        background-color: #000;
+                        color: white;
+                        border: none;
+                        cursor: pointer;
+                        padding: 5px;
+                    }
+                }
+
+                p {
+                    font-size: 3vw;
+                }
+            }
+        }
+
+        footer {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+    html {
+        body {
+            width: 100%;
+
+            header {
+                font-size: 3vw;
+            }
+
+            main{
+
+                .conteudoPrincipal {
+                    width: 90%;
+                    height: 90%;
+
+                    h2 {
+                        font-size: 6vw;
+                    }
+
+                    .entradaDados {
+                        width: 80%;
+
+                        input {
+                            font-size: 5vw;
+                        }
+
+                        button {
+                            font-size: 5vw;
+                        }
+                    }
+
+                    p {
+                        font-size: 5vw;
+                    }
+                }
+            }
+
+            footer {
+                font-size: 4vw;
+                text-align: center;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 260px) {
+    html {
+        display: none;
+    }
+}

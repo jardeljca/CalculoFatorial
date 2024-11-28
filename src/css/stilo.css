@@ -1,7 +1,7 @@
 html {
     width: 100vw;
     height: 100vh;
-    background-color: #a9c8f9;
+    background-color: #fef3e7;
     display: flex;
     justify-content: center;
 
@@ -28,6 +28,7 @@ html {
             display: flex;
             justify-content: center;
             align-items: center;
+            color: #fff;
 
             .conteudoPrincipal {
                 width: 50%;
@@ -38,7 +39,7 @@ html {
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
-                background-color: #3361fa;
+                background-color: #111827;
                 border-radius: 10px;
 
                 h2 {
@@ -61,12 +62,13 @@ html {
                     }
 
                     button {
-                        width: 60%;
+                        width: 70%;
                         background-color: #000;
                         color: white;
                         border: none;
                         cursor: pointer;
                         padding: 5px;
+                        border: 1px solid #fff;
                     }
                 }
 
